@@ -1,0 +1,27 @@
+body {
+   
+    background: url(https://png.pngtree.com/background/20210711/original/pngtree-hand-drawn-blue-sky-white-clouds-weather-forecast-illustration-background-picture-image_1137685.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.weather-box{
+    width: max-content; /* 상자 너비 */
+    height: max-content; /* 상자 높이 */
+    padding: 20px 30px;
+    background-color: #3498db; /* 배경색 */
+    color: #fff; /* 글자색 */
+    border-radius: 10px; /* 테두리 모서리 둥글게 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
