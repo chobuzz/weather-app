@@ -8,6 +8,8 @@ function App() {
 
   const [weather,setWeather] = useState(null)
 
+  const cities = ["Paris", "New York", "Tokyo", "Mexico City"]
+
   useEffect(() => {
     getCurrentLocation()
   },[])
@@ -43,7 +45,7 @@ function App() {
   return <div>
     <div className="container">
     <WeatherBox weather={weather}/>
-    <WeatherButton />
+    <WeatherButton cities={cities}/>
     </div>
   </div>;
 }
