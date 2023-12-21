@@ -12,7 +12,7 @@
 
 ```jsx
 $ git clone https://github.com/chobuzz/weather-app.git
-$ cd weather-app.git
+$ cd weather-app
 ```
 
 ### Start
